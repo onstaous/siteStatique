@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CV - [Votre Nom]</title>
+    <title>CV - Taous Ons</title>
     <style>
         /* Styles généraux */
         * {
@@ -20,10 +20,22 @@
         }
 
         header {
-            background-color: #007bff;
+            background-color: #B0E0E6;
             color: #fff;
             text-align: center;
             padding: 2em 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        header img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1em;
+            border: 3px solid #fff;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
 
         header h1 {
@@ -88,10 +100,26 @@
             padding: 1em 0;
             margin-top: 2em;
         }
+
+        a.download-link {
+            margin-top: 1em;
+            display: inline-block;
+            padding: 0.5em 1em;
+            background-color: #007bff;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        a.download-link:hover {
+            background-color: #0056b3;
+        }
     </style>
 </head>
 <body>
     <header>
+        <img src="photo.png" alt="Photo de Taous Ons">
         <h1>Taous Ons</h1>
         <p>Développeur en Systèmes Embarqués | Passionné par l'IA, IoT et Robotique</p>
     </header>
@@ -130,8 +158,8 @@
         <h2>Expériences Professionnelles</h2>
         <div class="details">
             <ul>
-                <li><strong>2023 :</strong> Satge perfectionnement -stage en IoT - Ennakl Automobiles</li>
-                <li><strong>2022 :</strong> Stage initiation -Observation & developpement d'une interface statique -Amen Bank</li>
+                <li><strong>2023 :</strong> Stage en IoT - Ennakl Automobiles</li>
+                <li><strong>2022 :</strong> Stage en développement - Amen Bank</li>
             </ul>
         </div>
     </section>
@@ -154,16 +182,14 @@
             <ul>
                 <li><strong>Email :</strong> votre.email@example.com</li>
                 <li><strong>Téléphone :</strong> +216 123 456 789</li>
-                <li><strong>LinkedIn :</strong><a href="https://www.linkedin.com/in/ons-taous-41b568295/" target="_blank">Profil LinkedIn </a></li>
+                <li><strong>LinkedIn :</strong> <a href="https://www.linkedin.com/in/ons-taous-41b568295/" target="_blank">Profil LinkedIn</a></li>
             </ul>
-            <a href="Modern Professional CV Resume.pdf" download="">Télécharger mon CV</a>
+            <a href="Modern Professional CV Resume.pdf" class="download-link" download>Télécharger mon CV</a>
         </div>
     </section>
-    
-
 
     <footer>
-        <p>&copy; 2024 Taous Ons . Tous droits réservés.</p>
+        <p>&copy; 2024 Taous Ons. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
